@@ -1,0 +1,83 @@
+body {
+    text-align: left
+}
+
+.main-text-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    min-height: 80vh;
+}
+
+.date {
+    font-size: 150%;
+}
+
+.time {
+    font-size: 150%;
+}
+
+/* .location {
+} */
+
+.names {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 1.5em;
+}
+
+.names>div>p:first-child {
+    margin-bottom: 0.5em;
+}
+
+
+/* COLORS */
+body {
+    background-color: cornsilk;
+    color: #5d5442;
+}
+
+
+/* LAYOUT */
+.centered {
+    text-align: center;
+}
+
+.centered .names {
+    flex-direction: row;
+}
+
+.centered.names>div {
+    padding: 0.5em;
+}
+
+
+
+
+
+/* TYPOGRPHY */
+.arima-600 {
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+}
+.arima-400 {
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  margin: 0;
+  margin-bottom: 0.2em;
+}
+.small{
+    font-size: 90%;
+}

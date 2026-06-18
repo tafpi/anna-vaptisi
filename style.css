@@ -1,5 +1,6 @@
 body {
-    text-align: left
+    text-align: left;
+    margin: 0;
 }
 
 .main-text-wrapper {
@@ -10,25 +11,22 @@ body {
 }
 
 .main-text {
-    min-height: 80vh;
+    /* min-height: 80vh; */
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
 }
 
 .date {
     font-size: 150%;
 }
 
-.time {
-    font-size: 150%;
-}
-
-/* .location {
-} */
-
 .names {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 1em;
     gap: 1.5em;
 }
 
@@ -39,7 +37,7 @@ body {
 
 /* COLORS */
 body {
-    background-color: cornsilk;
+    background-color: #fffcee;
     color: #5d5442;
 }
 
@@ -66,7 +64,7 @@ body {
   font-family: "Arima", system-ui;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-style: bold;
+  font-style: normal;
 }
 .arima-400 {
   font-family: "Arima", system-ui;
@@ -77,7 +75,31 @@ body {
 p {
   margin: 0;
   margin-bottom: 0.2em;
+  line-height: 1.4;
 }
 .small{
-    font-size: 90%;
+    font-size: 85%;
+}
+body {
+    font-size: 16px;
+}
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media (min-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        font-size: 22px;
+    }
+}
+@media (min-width: 1500px) {
+    body {
+        font-size: 24px;
+    }
 }

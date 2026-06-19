@@ -1,47 +1,96 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Anna Pothitou</title>
-		<meta name="description" content="Anna Pothitou Baptism Invitation">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<!-- <p>Σας προσκαλούμε στη βάπτιση της κόρης μας την Κυριακή 27 Σεπτεμβρίου 2026 και ώρα 18:00 στον Ιερό Ναό Αγίου Νικολάου Ριγίλλης, πίσω από το Ωδείο Αθηνών</p> -->
-        <div class="main-text-wrapper centered">
-            <div class="main-text arima-600">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anna Pothitou</title>
+    <meta name="description" content="Anna Pothitou Baptism Invitation">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <p>Σας προσκαλούμε στη βάπτιση της κόρης μας την Κυριακή 27 Σεπτεμβρίου 2026 και ώρα 18:00 στον Ιερό Ναό Αγίου Νικολάου Ριγίλλης, πίσω από το Ωδείο Αθηνών</p> -->
+    <div class="main-text-wrapper centered">
+        <div class="main-text arima-600">
+            <div>
+                <p>Σας προσκαλούμε στη βάπτιση της κόρης μας</p>
+            </div>
+            <div>
+                <p class="day">την Κυριακή</p>
+                <p class="date">27 Σεπτεμβρίου 2026</p>
+                <p class="time">στις 18:00</p>
+            </div>
+            <div>
+                <p class="small">στον <a href="https://maps.app.goo.gl/AvnhUJaAQbsvgvVP7" target="_blank">Ιερό Ναό Αγίου
+                        Νικολάου Ριγίλλης</a>, πίσω από το Ωδείο Αθηνών</p>
+            </div>
+            <div class="names">
                 <div>
-                    <p>Σας προσκαλούμε στη βάπτιση της κόρης μας</p>
+                    <p class="small">Οι γονείς</p>
+                    <p>Φλώρα Κορακή</p>
+                    <p>Τηλέμαχος Ποθητός</p>
                 </div>
                 <div>
-                    <p class="day">την Κυριακή</p>
-                    <p class="date">27 Σεπτεμβρίου 2026</p>
-                    <p class="time">στις 18:00</p>
-                </div>
-                <div>
-                    <p class="small">στον <a href="https://maps.app.goo.gl/AvnhUJaAQbsvgvVP7" target="_blank">Ιερό Ναό Αγίου Νικολάου Ριγίλλης</a>, πίσω από το Ωδείο Αθηνών</p>
-                </div>
-                <div class="names">
-                    <div>
-                        <p class="small">Οι γονείς</p>
-                        <p>Φλώρα Κορακή</p>
-                        <p>Τηλέμαχος Ποθητός</p>
-                    </div>
-                    <div>
-                        <p class="small">Η νονά</p>
-                        <p>Δήμητρα Μακρή</p>
-                    </div>
+                    <p class="small">Η νονά</p>
+                    <p>Δήμητρα Μακρή</p>
                 </div>
             </div>
         </div>
-        <div>
-            <p class="small">Αν έρθετε με αυτοκίνητο μπορείτε να παρκάρετε στο Polis Park στη Ριζάρη. Υπάρχει επίσης ο σταθμός μετρό Ευαγγελισμός κοντά στο Ναό. Η πρόσβαση στο Ναό γίνεται από την πύλη οχηματων του Ωδείου Αθηνών από την οδό Ριγίλλης. Το παρκάρισμα στο Ωδείο δεν επιτρέπεται.</p>
-            <iframe src="https://www.google.com/maps/d/embed?mid=13lQC8WE2nfQ4bJls-IufrOvFgec_RoA&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
-            <p class="small">τηλεφωνα, emails</p>
+    </div>
+    <div class="rest-content-wrapper centered">
+        <p class="small">
+            Η πρόσβαση γίνεται με τα πόδια από την πύλη οχημάτων του Ωδείου Αθηνών στην οδό Ριγίλλης.<br>
+            ο Ναός απέχει περίπου 10 λεπτά με τα πόδια από τον σταθμό του μετρό Ευαγγελισμός. <br>
+            Αν έρχεστε με αυτοκίνητο, μπορείτε να παρκάρετε στο Polis Park (Ριζάρη). Το παρκάρισμα μετά την πύλη του
+            Ωδείου δεν επιτρέπεται.
+        </p>
+        <div class="map-wrapper">
+            <iframe id="map-iframe"
+                src="https://www.google.com/maps/d/embed?mid=13lQC8WE2nfQ4bJls-IufrOvFgec_RoA&ehbc=2E312F&noprof=1"
+                width="800" height="480" style="max-width:100%;"></iframe>
         </div>
-	</body>
+
+        <p class="small">Επικοινωνία</p>
+        <div class="contact-person">
+            <p>Φλώρα</p>
+            <a href="tel:6975852557">6975852557</a>
+            <!-- <a href="mailto:flora.koraki@gmail.com">flora.koraki@gmail.com</a> -->
+        </div>
+        <div class="contact-person">
+            <p>Τηλέμαχος</p>
+            <a href="tel:6936979766">6936979766</a>
+            <!-- <a href="mailto:tilpoth@gmail.com">tilpoth@gmail.com</a> -->
+        </div>
+    </div>
+</body>
+<script>
+    (function () {
+        const iframe = document.getElementById('map-iframe');
+        if (!iframe) return;
+        function setMapHeight() {
+            const wantedHeight = Math.round(window.innerHeight * 0.7);
+            let h = Math.min(wantedHeight, 480);
+            h = Math.max(h, 300);
+            iframe.setAttribute('height', h);
+        }
+        function throttle(fn, delay) {
+            let lastCall = 0;
+            return function () {
+                const now = Date.now();
+                if (now - lastCall >= delay) {
+                    lastCall = now;
+                    fn();
+                }
+            };
+        }
+        const throttledResize = throttle(setMapHeight, 100);
+        window.addEventListener('resize', throttledResize);
+        document.addEventListener('DOMContentLoaded', setMapHeight);
+        setMapHeight();
+    })();
+</script>
 </html>

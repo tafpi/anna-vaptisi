@@ -11,8 +11,7 @@ body {
 }
 
 .main-text {
-    /* min-height: 80vh; */
-    max-width: 80vw;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     gap: 0.7em;
@@ -55,7 +54,27 @@ body, a {
     padding: 0.5em;
 }
 
+.map-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
 
+.rest-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    max-width: 900px;
+    margin: auto;
+}
+
+.contact-person {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
 
 
 

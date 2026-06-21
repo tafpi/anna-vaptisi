@@ -8,6 +8,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .main-text {
@@ -31,6 +32,35 @@ body {
 
 .names>div>p:first-child {
     margin-bottom: 0.5em;
+}
+
+.flowers {
+    position: absolute;
+    opacity: 0.7;
+}
+
+.upper-left {
+    top: 0;
+    left: 0;
+    width: 21%;
+    min-width: 120px;
+    max-width: 260px;
+}
+.lower-right {
+    bottom: 0;
+    right: 0;
+    width: 27%;
+    min-width: 150px;
+    max-width: 290px;
+}
+
+.colored-png-container {
+  overflow: hidden;
+}
+
+.colored-png-container img {  
+  filter: drop-shadow(0px 10000px 0 #5d5442);
+  transform: translateY(-10000px);
 }
 
 
@@ -94,7 +124,9 @@ body, a {
 p {
   margin: 0;
   margin-bottom: 0.2em;
-  line-height: 1.4;
+}
+p, a {
+    line-height: 1.4;
 }
 .small{
     font-size: 80%;

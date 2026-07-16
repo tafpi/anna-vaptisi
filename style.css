@@ -136,7 +136,6 @@ body {
 }
 .flowers {
     position: absolute;
-    opacity: 0.7;
     height: auto;
     transform: scale(0.1);
 }

@@ -169,7 +169,7 @@ body {
 .flowers {
     position: absolute;
     height: auto;
-    transform: scale(0.1);
+    transform: scale(0.2);
 }
 .top-left {
     transform-origin: top left;
@@ -194,31 +194,31 @@ body {
 
 @media (min-height: 540px) {
     .flowers {
-        transform: scale(0.15);
+        transform: scale(0.3);
     }
 }
 
 @media (min-height: 650px) {
     .flowers {
-        transform: scale(0.2);
+        transform: scale(0.4);
     }
 }
 
 @media (min-width: 600px) {
     .flowers {
-        transform: scale(0.175);
+        transform: scale(0.35);
     }
 }
 
 @media (min-height: 540px) and (min-width: 500px) {
     .flowers {
-        transform: scale(0.2);
+        transform: scale(0.4);
     }
 }
 
 @media (min-height: 540px) and (min-width: 600px) {
     .flowers {
-        transform: scale(0.2);
+        transform: scale(0.4);
     }
     .top-left {
         top: -4px;
@@ -231,11 +231,11 @@ body {
 }
 @media (min-height: 540px) and (min-width: 900px) {
     .flowers {
-        transform: scale(0.24);
+        transform: scale(0.48);
     }
 }
 @media (min-height: 540px) and (min-width: 1200px) {
     .flowers {
-        transform: scale(0.3);
+        transform: scale(0.6);
     }
 }

@@ -27,7 +27,7 @@ body {
 
 .main-text {
     position: relative;
-    padding: 1em 1.5em;
+    padding: 4em 1.5em;
     display: flex;
     flex-direction: column;
     gap: 0.7em;
@@ -194,13 +194,13 @@ body {
 
 @media (min-height: 540px) {
     .flowers {
-        transform: scale(0.3);
+        transform: scale(0.25);
     }
 }
 
 @media (min-height: 650px) {
     .flowers {
-        transform: scale(0.4);
+        transform: scale(0.3);
     }
 }
 

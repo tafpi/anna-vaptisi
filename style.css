@@ -65,6 +65,19 @@ body, a {
 
 
 /* LAYOUT */
+.rest-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em 1em;
+    max-width: 900px;
+    margin: auto;
+}
+
+.rest-text-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .centered {
     text-align: center;
 }
@@ -80,24 +93,24 @@ body, a {
 .map-wrapper {
     display: flex;
     justify-content: center;
-    padding: 1em;
 }
 
-.rest-content-wrapper {
-    display: flex;
-    flex-direction: column;
+.contact {
+    display:flex;
+    flex-direction: row;
     justify-content: center;
-    padding: 1em;
-    max-width: 900px;
-    margin: auto;
-    margin-top: 5em;
+    gap: 1em;
+    margin-top: 1em;
 }
 
 .contact-person {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 1em;
+}
+
+.contact-person p {
+    margin: 0;
 }
 
 

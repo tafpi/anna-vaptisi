@@ -22,7 +22,6 @@ body {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    mix-blend-mode: overlay;
 }
 
 .main-text {
@@ -63,6 +62,9 @@ body, a {
     color: #5d5442;
 }
 
+.main-text-wrapper, .rest-content-wrapper {
+    mix-blend-mode: color-burn;
+}
 
 /* LAYOUT */
 .rest-content-wrapper {
